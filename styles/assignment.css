@@ -138,7 +138,57 @@ font-weight: 700;
  }
 
  /* offer section styles */
-
- .offer-container{
-  display: flex;
+ .coming-soon{
+   display: flex;
+   margin: 140px;
  }
+
+ .coming{
+  margin: 20px;
+  padding: 10px;
+ }
+
+ .offer-title{
+   color: #F00;
+   text-align: center;
+   font-size: 24px;
+   font-weight: 500;
+ }
+
+.offer-head{
+  text-align: center;
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.offer-text{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.offer-img{
+  width: 463px;
+  height: 463px;
+  border-radius: 463px;
+  border: 15px solid #F00;
+}
+
+.year{
+  color: #F00;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.year-text{
+  color: rgba(7, 2, 17, 0.60);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px; /* 160% */
+}
+
+.year-img{
+  width: 140px;
+  height: 140px;
+}
