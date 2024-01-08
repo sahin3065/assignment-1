@@ -136,3 +136,9 @@ font-weight: 700;
   margin-top: 48   px;
   color: #FFF;
  }
+
+ /* offer section styles */
+
+ .offer-container{
+  display: flex;
+ }
