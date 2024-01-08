@@ -242,5 +242,52 @@ font-weight: 700;
 .thead{
   width: 424px;
   height: 450px;
+}
+
+/* subscribe section styles */
+.subscribe{
+   padding-top: 150px;
+   margin-top: 100px;
+   text-align: center;
+   width: 1320px;
+   height: 616px;
+   border-radius: 16px;
+   background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-title{
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+.subscribe-text{
+  color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.subscribe-button{
+  width: 210px;
+  height: 72px;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
   
+}
+
+.gmail{
+  width: 648px;
+  height: 72px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #FFF;
+  color: rgba(7, 2, 17, 0.30);
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+ font-weight: 400;
+
 }
