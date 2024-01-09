@@ -6,30 +6,39 @@ body{
 /* banner related styles */
 
 .banner{
-  /* background-image: url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png); */
   height: 600px;
-  width: 1300px;
   background-repeat: no-repeat;
   border-radius: 16px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url(../B9A1-New-Year-New-Mission/resources/Banner\ Image.png);
-  margin: px;
+
 }
 
+
+.banner-content{
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   padding-top: 150px;
+   
+  }
+
 .banner-greeting{
-  /* padding: 177px 530px 338px; */
   text-align: center;
-  justify-content: center;
   color: #fff;
-  font-size: 32px;
+  font-size: 42px;
+  font-weight: 800;
+  margin-top: 0px;
 }
-.banner-title{
-display: flex;
-align-items: center;
-justify-content: center;
-color: #FFF;
-flex-direction: column;
-margin-top: 2rem;
+
+.banner-text{
+   text-align: center;
+   font-size: 62px;
+   font-weight: 800;
+   color: #FFF;
+   margin-top: 20px;
+   
 }
+
 
 /* discount section styles */
 .discount{
@@ -72,11 +81,14 @@ font-weight: 700;
   background-image: url(../B9A1-New-Year-New-Mission/resources/Vectorrr.png);
   background-repeat: no-repeat;
   height: 600px;
-  margin:140px;
+  margin:50px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
 
+.welcome-container{
+   margin-left: 120px;
+}
 
  .welcome-title{
   color: #FFF;
@@ -95,7 +107,7 @@ font-weight: 700;
  .welcome-button{
   text-align: center;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 700;  
  }
 
  .welcome-img{
@@ -193,31 +205,52 @@ font-weight: 700;
 }
 
 /* holiday section styles */
-/* .holiday-container{
-  background: #FFF;
-  margin: 140px;
+.images img{
+    width: 30%;
+    min-height: auto;
+}
+
+.flower-img{
+    margin-left: 12px;
+    border: 2px solid red;
+    width: 100%;
+    transform: rotate(-45deg);
+}
+
+.percentage{
+    padding-bottom: _4px;
+    margin-bottom: _4px;
+}
+
+.man-image{
+    position: relative;
+    bottom: _4px;
+    width: 430px;
+    height: 430px;
+   
+}
+
+.holiday{
+    text-align: center;
 }
 
 .holiday-head{
-  text-align: center;
-  color: #070211;
-  font-size: 24px;
-  font-weight: 500;
+    color: black;
+    font-size: 24px;
 }
 
 .holiday-title{
-  text-align: center;
+  color: #070211;
   font-size: 72px;
   font-weight: 900;
-
 }
 
 .holiday-text{
   color: rgba(7, 2, 17, 0.60);
-  text-align: center;
+  text-align: center
   font-size: 20px;
   font-weight: 500;
-  line-height: 32px; /* 160% */
+  line-height: 32px; 
 }
 
 /* portfilio section styles */
@@ -239,7 +272,8 @@ font-weight: 700;
   line-height: 32px; /* 160% */
 }
 
-.thead{
+ thead{
+  
   width: 424px;
   height: 450px;
 }
@@ -274,8 +308,7 @@ font-weight: 700;
   width: 210px;
   height: 72px;
   border-radius: 0px 50px 50px 0px;
-  background: #F00;
-  
+  background: #F00;  
 }
 
 .gmail{
@@ -288,6 +321,8 @@ font-weight: 700;
   text-align: center;
   font-family: Inter;
   font-size: 18px;
- font-weight: 400;
-
+  font-weight: 400;
 }
+
+/* footer section styles */
+
