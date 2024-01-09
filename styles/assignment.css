@@ -326,3 +326,48 @@ font-weight: 700;
 
 /* footer section styles */
 
+.footer-container{
+   padding: 12px;
+   font-size: 18px;
+   background: #070211;
+   
+}
+
+.footer{
+   display: flex;
+}
+
+.contact{
+   font-size: 18px;
+   margin-top: 30px;
+  
+}
+
+.add{
+   display: flex;
+   color: #FFF;
+   font-size: 24px;
+   font-weight: 500;
+   line-height: 40px
+}
+
+.icons{
+   text-align: center;
+   border-top: 2px solid #fff;
+   border-bottom: 2px solid #fff;
+   width: 80%;
+   padding-top: 14px;
+   padding-bottom: 14px;
+}
+
+.date{
+  float: right;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+}
+.end{
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+}
